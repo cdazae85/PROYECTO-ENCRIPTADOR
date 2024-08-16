@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="encriptador_texto.png" alt="Esta es una descripcion alternativa de la imagen para cuando no se pueda mostrar" width="150" height="150" align="right"/>
+        <img src="desencriptador_texto.jpeg" alt="Esta es una descripcion alternativa de la imagen para cuando no se pueda mostrar" width="150" height="150" align="left"/>
+        <h1>Encriptador y Desencriptador de Texto</h1>
+        <p>Codificación de texto en base64</p>
+        <textarea name="inputText" class="inputText" id="inputText" placeholder="Introduce el texto aquí..."></textarea>
+        <div class="buttons">
+            <button onclick="encryptText()">Encriptar</button>
+            <button onclick="decryptText()">Desencriptar</button>
+            <button onclick="copyText()">Copiar</button>
+        </div>
+        <textarea id="outputText" placeholder="Texto encriptado/desencriptado aquí... copie y pegue el texto encriptado para desencriptar "></textarea>
+             
+        <footer  style="width: 60%; margin-bottom: 0px;"  >
+            <div class="copyright" style="background-color: #0d47a1;">
+                <div class="container-fluid" style="background-color: #0d47a1; color: #bbdefb;">
+                    ©  Copyright: Camilo Andres Daza - Proyecto Alura Latam - logica programacion
+            
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
