@@ -20,4 +20,4 @@ Esta es una simple aplicación web que permite encriptar y desencriptar texto ut
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/cdazae85/encriptador-desencriptador-texto.git
+   git clone https://github.com/cdazae85/PROYECTO-ENCRIPTADOR.git
